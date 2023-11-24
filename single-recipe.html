@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="single-recipe.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading-1">
+            <a href="/" class="homepage">Recipe App</a>
+        </h1>
+    </header>
+    <div class="main-container d-flex gap-lg d-flex-direction-column main">
+        <div class="image-incridents d-flex d-flex-direction-row gap-lg">
+            <div class="card"></div>
+            <div class="ingredients"><p class="title">Ingredients</p>
+                <ul id="ingredients"></ul>
+            </div>
+        </div>
+        <div class="instruction title">Recipe Instruction
+            <ul id="instructions"></ul>
+        </div>
+    </div>
+    <script type="module" src="single-recipe.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
